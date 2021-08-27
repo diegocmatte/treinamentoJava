@@ -1,6 +1,6 @@
 package com.company.padroes.observer;
 
-public class Namorada implements ObservadorChegadaAniversariante{
+public class Namorada implements ObservadorChegadaAniversariante {
 
     public void chegou(EventoChegadaAniversariante evento) {
         System.out.println("Avisar os convidados...");
